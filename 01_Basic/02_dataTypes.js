@@ -25,4 +25,10 @@ let state;
 // Object 
 
 
-console.log(typeof age)
+console.log(typeof age);
+console.log(typeof "Shubham");
+
+
+console.log (typeof null); // dataTyppe --> Object 
+console.log(typeof undefined); // dataType --> undefined
+

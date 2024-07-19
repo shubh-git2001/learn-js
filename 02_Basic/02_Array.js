@@ -29,4 +29,14 @@ const real_another_array = another_array.flat(Infinity);
 console.log(real_another_array);
 
 
-console.log(isArray("Hitesh"))
+console.log(Array.isArray("Hitesh")); // here we just ask Q? 
+console.log(Array.from("Hitesh")); //Use from to change in an array
+console.log(Array.from({name :"Shubham"})); //intresting 
+
+// {} => Curly Braces ka use karke hum obj declare karte hai
+
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+
+console.log(Array.of(score1 , score2, score3));

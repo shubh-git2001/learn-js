@@ -5,6 +5,9 @@ Two Methods in an onbject to decalre
  2 => constructor 
  
  */
+
+
+// This video is totally dedicated for Literals --->
    
 
 //Object literals 

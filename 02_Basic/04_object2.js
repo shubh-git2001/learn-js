@@ -91,11 +91,11 @@ navbar(company = "SSCorporation")
 console.log(company)
 
 // Json or api hume trah milti hai 
-{
-    "name" : "Shubham",
-    "coursename" : "js in hindi",
-    "price" : "free"
-}
+// {
+//     "name" : "Shubham",
+//     "coursename" : "js in hindi",
+//     "price" : "free"
+// }
 
 [
     {},

@@ -64,11 +64,40 @@ const users = [
 
 
 // this is used to change obj into an array &  every single word has own meaning in this like {keys, values, entries}
- console.log(Object.keys(tinderUser));
- console.log(Object.values(tinderUser));
- console.log(Object.entries(tinderUser));
+//  console.log(Object.keys(tinderUser));
+//  console.log(Object.values(tinderUser));
+//  console.log(Object.entries(tinderUser));
 
 // hasOwnProperty => Use to determine whether object is present in an array on not
- console.log(tinderUser.hasOwnProperty('LoggedIn'))
-console.log(obj1)
+//  console.log(tinderUser.hasOwnProperty('LoggedIn'))
+   
+ const course = {
+    courseName : "JavaScript",
+    price : "999",
+    courseInstructor : "Badshah"
+ } 
+//  course.courseInstructor
 
+const {courseInstructor : instructor} = course;
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+// Small Example of Reactjs
+const  navbar = ({company}) => {
+
+}
+navbar(company = "SSCorporation")
+console.log(company)
+
+// Json or api hume trah milti hai 
+{
+    "name" : "Shubham",
+    "coursename" : "js in hindi",
+    "price" : "free"
+}
+
+[
+    {},
+    {}
+]

@@ -16,4 +16,3 @@ function addTwoNumber(number1 , number2){
 }
 
 addTwoNumber(3,5)
-console.log ("33")
